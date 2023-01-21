@@ -8,6 +8,11 @@ body {
     color: #F9FAF8;
 }
 
+.hero-description {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .header-container {
     display: flex;
     background-color: #1F2937;
@@ -24,9 +29,8 @@ body {
 }
 
 .hero-container {
-    display: flex;
     background-color: #1F2937;
-    height: 180px;
+    padding-bottom: 50px;
 }
 
 .hero-container-image {
@@ -93,6 +97,8 @@ body {
     justify-content: center;
     background-color: #E5E7EB;
     align-items: center;
+    padding: 50px;
+    gap: 15px;
 }
 
 .hero-testimonial {
@@ -101,28 +107,38 @@ body {
     flex: 1 1 auto;
 }
 
+.hero-testimonial-client {
+    font-weight: bold;
+    color: #1F2937;
+}
+
 .hero-container-action {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .hero-action-box {
     background-color: #3882F6;
     display: flex;
-    height: 80px;
     justify-content: space-around;
-    width: 800px;
     flex-wrap: wrap;
-    margin-top: 80px;
-    margin-bottom: 80px;
     border-radius: 5px;
     padding: 15px;
+    gap: 50px;
 }
 
 .hero-action-button {
     display: flex;
     align-items: center;
+}
+
+.btt {
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
 }
 
 .hero-speed-icon, .hero-stability-icon, .hero-range-icon, .hero-tech-icon {
